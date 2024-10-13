@@ -89,7 +89,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
   LANG: ( process.env.THEME ||  "HITDEV"  ).toUpperCase(),
 
 
